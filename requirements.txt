@@ -5,3 +5,4 @@ pandas
 notebook
 jupyterlab
 scikit-learn
+ucimlrepo
