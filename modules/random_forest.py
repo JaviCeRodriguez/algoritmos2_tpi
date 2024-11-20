@@ -2,7 +2,7 @@ import numpy as np
 import random
 from typing import TypeVar, List, Tuple
 from collections import Counter
-from modules.arbol_binario import ArbolBinario
+from arbol_binario import ArbolBinario
 
 T = TypeVar('T')
 
