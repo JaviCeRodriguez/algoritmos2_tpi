@@ -6,8 +6,6 @@
 - Silvia Fernández
 - Javier Rodriguez
 
-## Objetivo
-
 ## Setup
 
 ```sh
@@ -30,15 +28,15 @@ nombre_entorno/Scripts/activate
 (nombre_entorno) pip install -r requirements.txt
 ```
 
+## Correr código
+
+- En la carpeta `modules` están las clases utilizadas para entrenar los modelos, se pueden correr estos archivos por separado si lo desean.
+- En el root van a encontrar dos notebooks: `analisis_datasets_scikit.ipynb` y `analisis_datasets_paper.ipynb`. La segunda notebook es la utilizada para elaborar el informe. Pueden abrirlo desde Google Colab (colocando las clases usadas en una carpeta `modules` o como parte de la notebook). También levantar esta notebook usando el comando en terminal `jupyter notebook`.
+
 ## Planificación
 
 - [x] Elección de paper o trabajo de investigación para validar
 - [x] Tipos de algoritmos a utilizar
-- [ ] Desarrollo de algoritmos propios para validar paper
-- [ ] Mismo desarrollo, pero con librerías conocidas para validar lo anterior
-- [ ] Re-iterar pasos realizados y mejorar calidad de código + performance
-- [ ] Obtener resultados y describirlos en informe
-
-## Recursos utilizados
-
-- [Arxiv - Bootstrap Sampling Rate Greater than 1.0 May Improve Random Forest Performance](https://arxiv.org/abs/2410.04297)
+- [x] Desarrollo de algoritmos propios para validar paper
+- [x] Re-iterar pasos realizados y mejorar calidad de código + performance
+- [x] Obtener resultados y describirlos en informe
